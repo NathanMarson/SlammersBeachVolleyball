@@ -28,7 +28,7 @@
 }
 
 /* Add a color to the active/current link  */
-.topnav a.active {
-    background-color: #4CAF50;
+.topnav a:active {
+    background: linear-gradient(#46a7e2, #4ebfff, #46a7e2);
     color: #ffffff;
 }
