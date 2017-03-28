@@ -2,8 +2,8 @@
 .topnav {
     background-color: #46a7e2;
     overflow: hidden;
-    border-left-color: #ffffff;
-    border-right-color: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
 
 }
 
@@ -28,7 +28,7 @@
 }
 
 /* Add a color to the active/current link  */
-.topnav a:active {
+.active {
     background: linear-gradient(#46a7e2, #4ebfff, #46a7e2);
     color: #ffffff;
 }
