@@ -7,6 +7,12 @@
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
+.heading {
+    font-weight: bold;
+    font-size: 17px;
+    font-style: italic;
+}
+
 img {
     float: right;
     margin: 10px;
