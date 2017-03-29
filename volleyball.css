@@ -1,11 +1,18 @@
 .main {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: auto;
+    width: 90%;
     background: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
+img {
+    float: right;
+    margin: 10px;
+}
 
-/* Add a black background color to the top navigation */
+/* background colour for the navbar */
 .topnav {
     background-color: #46a7e2;
     overflow: hidden;
@@ -14,7 +21,7 @@
     margin-left: 5%;
 }
 
-/* Style the links inside the navigation bar */
+/* navbar blocks */
 .topnav a {
     float: left;
     display: block;
@@ -27,13 +34,13 @@
     font-weight: bold;
 }
 
-/* Change the color of links on hover */
+/* Change the colour of navbar when hovering */
 .topnav a:hover {
     background: linear-gradient(#46a7e2, #4ebfff, #46a7e2);
     color: #ffffff;
 }
 
-/* Add a color to the active/current link  */
+/* Adds colour to the active page on the navbar  */
 .active {
     background: linear-gradient(#46a7e2, #4ebfff, #46a7e2);
     color: #ffffff;
@@ -62,4 +69,40 @@
     text-align: left;
     background-color: #46a7e2;
     color: white;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #46a7e2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #4ebfff;
+}
+
+.signup {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
