@@ -5,6 +5,7 @@
     padding: 20px;
     box-sizing: border-box;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
 }
 
 .heading {
@@ -19,6 +20,10 @@
 
 .bold {
     font-weight: bold;
+}
+
+.inset {
+    padding-left:20px;
 }
 
 img {
