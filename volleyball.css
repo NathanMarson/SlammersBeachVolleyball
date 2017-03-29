@@ -13,6 +13,14 @@
     font-style: italic;
 }
 
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 img {
     float: right;
     margin: 10px;
